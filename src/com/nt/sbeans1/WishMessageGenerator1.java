@@ -6,7 +6,7 @@ import java.time.LocalTime;
 import java.time.LocalDate;
 
 @Component("wmg")
-public class WishMessageGenerator {
+public class WishMessageGenerator1 {
     @Autowired  // for field injection
     private LocalTime lt;
     @Autowired // for field injection
