@@ -8,10 +8,10 @@ public class DependencyInjectionTest1 {
         // get target spring bean class object ref from the IOC container
         Object obj = ctx.getBean("wmg");
 
-        // type casting
+        // Type casting
         WishMessageGenerator1 generator = (WishMessageGenerator1)obj;
 
-        // invoke the b.method
+        // Invoke the b.method
 
         String result = generator.generateWishMessage("nurul");
         System.out.println(result);

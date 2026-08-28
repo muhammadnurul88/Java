@@ -11,7 +11,7 @@
     <bean id="ltime" class="java.time.LocalTime" factory-method="now" />
     <bean id="ldate" class="java.time.LocalDate" factory-method="now" />
 
-<!--  enable component scanning for making user defind  -->
+<!--  Enable component scanning for making user defind  -->
 
     <context:component-scan base-package="com.nt.sbeans1"/>
 
